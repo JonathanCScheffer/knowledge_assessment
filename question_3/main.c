@@ -56,7 +56,8 @@ void print_header(){
     printf("================================\n");
     printf("=== Array metrics calculator ===\n");
     printf("================================\n");
-    printf("Enter the values of the array. Press ESC to stop entering values.\n");
+    printf("Enter the values of the array.\n");
+    printf("Press ESC to stop entering values.\n")
 }
 
 void read_input(array_struct *array){
@@ -111,7 +112,7 @@ void get_even_numbers(array_struct *array, array_struct *array_copy, int i){
 }
 
 void calculate_array_average(array_metrics_struct *metrics, int array_size){
-    metrics->array_average = (metrics->array_sum) / array_size;
+    metrics->array_average = (float)(metrics->array_sum) / array_size;
 }
 
 void print_footer(array_metrics_struct metrics){
