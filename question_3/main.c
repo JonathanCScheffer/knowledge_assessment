@@ -57,7 +57,7 @@ void print_header(){
     printf("=== Array metrics calculator ===\n");
     printf("================================\n");
     printf("Enter the values of the array.\n");
-    printf("Press ESC to stop entering values.\n")
+    printf("Press ESC to stop entering values.\n");
 }
 
 void read_input(array_struct *array){
