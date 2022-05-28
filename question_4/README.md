@@ -5,3 +5,9 @@
 ## Resolution
 
 Considering that a UART communication may have EMI interferences, a good practice is to always setup the more suitable link configurations such as parity, baud rate and data bits, according to the performance of the connected devices and converters. After ensuring that the communication link is rightly set, one of the most common error detection algorithms is the _Cyclic Redundancy Check_, also known as CRC, which is a low level measure to improve the hit rate. The success rate of the communication link may also be improved on the application level of the protocol, however, these implementations could cost a lot of overhead for each transferred protocol data unit, which also requires a more sophisticated hardware and firmware implementations.
+
+## Build instructions with gcc
+
+```bash
+gcc *.c
+```
