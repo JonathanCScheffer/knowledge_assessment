@@ -1,4 +1,4 @@
-//Electrolux knoledge assessment question 3 resolution. 
+//Electrolux knowledge assessment question 3 resolution. 
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -66,7 +66,7 @@ void read_input(array_struct *array){
     array->size = 0;
     while(1){
         printf("Index {%d}: ", array->size);
-        gets(input_string);
+        fgets(input_string, 6, stdin);
         if (input_string[0] == 27){
             break;
         }
