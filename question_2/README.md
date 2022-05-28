@@ -6,7 +6,7 @@
 
 Resolution is written on `main.c` file.
 
-## Build instructions
+## Build instructions with gcc
 
 ```bash
 gcc main.c arduino.c button.c sm.c sm_states.c
